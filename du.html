@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adote um Amigo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🐾 Adote um Amigo</h1>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#animais">Animais</a>
+        <a href="#adocao">Adotar</a>
+        <a href="#admin">Administrador</a>
+    </nav>
+
+</header>
+
+<section class="banner" id="inicio">
+
+    <h2>Adote um amigo, transforme uma vida.</h2>
+
+    <input type="text" id="pesquisa" placeholder="Pesquisar animal...">
+
+    <button>Quero Adotar</button>
+
+</section>
+
+<section id="animais">
+
+<h2>🐶 Animais em Destaque</h2>
+
+<div class="filtros">
+
+<select id="tipo">
+
+<option>Todos</option>
+<option>Cachorro</option>
+<option>Gato</option>
+
+</select>
+
+<select id="cidade">
+
+<option>Todas cidades</option>
+<option>Natal</option>
+<option>Parnamirim</option>
+<option>Mossoró</option>
+
+</select>
+
+</div>
+
+<div class="cards" id="cards"></div>
+
+</section>
+
+<div class="modal" id="perfil">
+
+<div class="conteudo">
+
+<span id="fechar">&times;</span>
+
+<img id="fotoGrande">
+
+<h2 id="nomeAnimal"></h2>
+
+<p id="historia"></p>
+
+<p id="personalidade"></p>
+
+<p id="saude"></p>
+
+<p id="requisitos"></p>
+
+<button>Solicitar Adoção</button>
+
+</div>
+
+</div>
+
+<section id="adocao">
+
+<h2>📝 Formulário de Adoção</h2>
+
+<form>
+
+<input type="text" placeholder="Nome">
+
+<input type="number" placeholder="Idade">
+
+<input type="tel" placeholder="Telefone">
+
+<input type="text" placeholder="Endereço">
+
+<select>
+
+<option>Casa</option>
+
+<option>Apartamento</option>
+
+</select>
+
+<label>
+
+Possui Quintal?
+
+<select>
+
+<option>Sim</option>
+
+<option>Não</option>
+
+</select>
+
+</label>
+
+<label>
+
+Tem outros animais?
+
+<select>
+
+<option>Sim</option>
+
+<option>Não</option>
+
+</select>
+
+</label>
+
+<textarea placeholder="Por que deseja adotar?"></textarea>
+
+<button type="submit">Enviar Solicitação</button>
+
+</form>
+
+</section>
+
+<section id="admin">
+
+<h2>👤 Área do Administrador</h2>
+
+<div class="admin">
+
+<button>Cadastrar Animal</button>
+
+<button>Editar Informações</button>
+
+<button>Marcar como Adotado</button>
+
+<button>Pedidos de Adoção</button>
+
+<button>Aprovar Solicitação</button>
+
+<button>Recusar Solicitação</button>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>⭐ Recursos Extras</h2>
+
+<ul>
+
+<li>❤ Favoritar animais</li>
+
+<li>💬 Chat entre adotante e ONG</li>
+
+<li>🔔 Notificações</li>
+
+<li>📚 Dicas sobre adoção responsável</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<p>2026 - Plataforma de Adoção de Animais</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
